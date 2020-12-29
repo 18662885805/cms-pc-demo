@@ -1,0 +1,31 @@
+.contact_content{
+    width: 100%;
+}
+.contact_item{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+.contact_item_info{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_item_operate{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.05) ;
+}
+.contact_item_operate span{
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}

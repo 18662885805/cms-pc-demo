@@ -1,0 +1,197 @@
+
+.checklist table {
+    border-collapse: collapse;
+}
+
+.checklist table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #ebedf0;
+    width: 100%;
+    margin: 8px 0 16px;
+}
+
+.checklist table {
+    /*font-size: 14px;*/
+    line-height: 1.5;
+}
+
+.checklist table td, .checklist table th {
+    border: 1px solid #ebedf0;
+    padding: 16px 24px;
+    text-align: left;
+}
+
+.checklist table th {
+    text-align: center;
+    white-space: nowrap;
+    color: #5c6b77;
+    font-weight: 700;
+    font-size: 16px;
+    background: rgba(0, 0, 0, .02);
+}
+
+:global(table .ant-form-item-label) {
+    text-align: left;
+}
+
+:global(table .ant-form-item) {
+    margin-bottom: 0px;
+}
+
+.h2 {font-size: 15px;font-weight: bold;padding-left: 25px;}
+
+.h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.h4 {
+    font-size: 14px;
+}
+
+.checkItem {
+    font-weight: bold;
+}
+
+.item {
+    display: inline-block;
+    text-align: right;
+}
+
+.detail {
+    padding: 3px 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+:global(.ant-checkbox-disabled + span) {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.LiftItem {
+    position: absolute;
+    top: 0;
+    left: 160px;
+}
+
+.Lifting {
+    width: 100%;
+    height: 360px;
+}
+
+.max1, .max2 {
+    width: 550px;
+    height: 60px;
+}
+
+.mark1 {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 100%;
+}
+
+.mark2 {
+    position: absolute;
+    top: 32%;
+    left: -20%;
+    width: 100%;
+}
+
+.mark3 {
+    position: absolute;
+    top: 60%;
+    left: -15%;
+    width: 100%;
+}
+
+.mark4 {
+    position: absolute;
+    bottom: -25px;
+    left: -8%;
+    width: 100%;
+}
+
+.Liftingdrawing {
+    width: 100%;
+    position: relative;
+}
+
+.itembox {
+    border: #B1D1E0 solid 1px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.legend {
+    display: block;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #006599;
+    width: inherit;
+    font-size: 12px;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.add {
+    text-decoration: none;
+    font-size: 24px;
+    color: #005580;
+    display: inline-block;
+}
+
+/*print*/
+.itembox table tr{line-height: 32px;}
+
+.spacing {width: 25%;padding-right: 50px;}
+
+.spacing1 {width: 15%;padding-right: 50px;}
+
+@media print {
+    /*body * {*/
+    /*visibility: hidden;*/
+    /*}*/
+    .printarea,
+    .printarea * {
+        visibility: visible;
+    }
+
+    .printarea {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .noprint {
+        display: none;
+    }
+}
+
+/*0418*/
+.term {
+    display: table-cell;
+    padding-bottom: 16px;
+    color: rgba(0,0,0,.85);
+    /*Line-height is 22 px IE dom height will calculate error line-height: 20 px;*/
+    white-space: nowrap;
+}
+
+.detail {
+    display: table-cell;
+    width: 100%;
+    padding-bottom: 16px;
+    color: rgba(0,0,0,.65);
+    line-height: 20px;
+}
+
+.term,
+.detail {
+    padding-bottom: 8px;
+}

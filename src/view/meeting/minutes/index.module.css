@@ -1,0 +1,363 @@
+.NoData {
+  padding-top: 50px;
+  text-align: center;
+}
+.NoData p {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.firstLevelItem{
+  height: 40px;
+  /* line-height: 40px; */
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+	white-space:nowrap
+}
+
+.secondLevelItem{
+  height: 30px;
+  /* line-height: 40px; */
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.firstLevelItemLeft{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+	white-space:nowrap
+}
+
+.firstLevelItemRight{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.file_Breadcrumb{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.sub_record_item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.audit_record_item{
+  display: flex;
+  flex-direction: column;
+}
+
+.audit_record_item_created{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.audit_record_audit_detail{
+  width: 100%;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+}
+
+.table_operation{
+  position:absolute;
+  left: 0;
+  top:-10px;
+  height: 60px;
+  width: 100px;
+  border: 1px solid black;
+  z-index: 99;
+}
+
+.theme, .topic {box-sizing: border-box;}
+
+.theme:hover {border: 1px dashed#096dd9!important;}
+
+.topic:hover {border: 1px dashed #096dd9!important}
+
+.content:hover {border: 1px dashed #096dd9!important}
+
+.operate {display: none;}
+
+.theme:hover .operate {display: block;}
+
+.topic:hover .operate {display: block;}
+
+.content:hover .operate {display: block;}
+
+.operate button {padding: 0 6px!important;}
+
+
+/* 打印 */
+.h2 {font-size: 15px;font-weight: bold;}
+.h3 {font-size: 14px;font-weight: bold;}
+.h4 {font-size: 14px;}
+
+.printarea .h2 {padding-left: 25px;}
+
+.checkItem {font-weight: bold;}
+
+.itembox { border: #B1D1E0 solid 1px; padding-bottom: 10px; overflow: hidden;margin-bottom: 32px;}
+
+.itembox .legend {
+    display: block;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #006599;
+    width: auto;
+    /*width: inherit;*/
+    font-size: 12px;
+    border: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.bjcover {background: url(../../../assets/rbac_bg.jpg) repeat;}
+.mjkcover {background: url(../../../assets/mjk_bg.jpg) repeat;}
+
+.wrap {
+    position: relative;
+    padding: 15px 0;
+    border: #B1D1E0 solid 1px;
+    box-sizing: border-box;
+    /*margin-top: 12px;*/
+    margin-bottom: 15px;
+}
+
+.wrap .title{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #006599;
+    page-break-inside: avoid;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.wrap table tr{
+    line-height: 36px;
+    page-break-inside:avoid;
+}
+
+.wrap tr.tr_label {
+    page-break-inside:auto;
+}
+
+.wrap table tr td{
+    page-break-inside:avoid;
+}
+
+.wrap tr.tr_label  td{
+    page-break-inside:auto;
+}
+
+.wrap tr.tr_label  td p{
+    page-break-inside:avoid;
+}
+
+.field {display: block; padding: 12px 0;}
+
+/*问卷*/
+.addQues {
+    width: 180px;
+    display: inline-block;
+    background: #0095da;
+    padding: 6px 0;
+    color: #fff;
+    text-align: center;
+}
+
+a.addQues:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.qtitle {
+    margin: 25px auto 0;
+    width: 1000px;
+    border-bottom: 1px dashed #ccc;
+    background: rgb(255, 255, 255);
+}
+
+.qtitle h2{text-align: center;
+    font-weight: bold;
+    font-size: 18px;}
+
+.preview {
+    margin: 0 auto;
+    width: 1000px;
+    background: rgb(255, 255, 255);
+}
+
+.question {
+    padding: 8px 16px;
+    border: 1px solid #fdb553;
+}
+
+.deleteItem {
+    /*visibility: hidden;*/
+    float: right;
+    color: #6d6e71;
+    border: 1px solid #ffa39e;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    background: #fff1f0;
+}
+
+/*倒计时*/
+.timeout {
+    font-size: 18px;
+    color: red;
+    white-space: nowrap;
+}
+
+/*检查单*/
+.checklist table {
+    border-collapse: collapse;
+}
+
+.checklist table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #ebedf0;
+    width: 100%;
+    margin: 8px 0 16px;
+}
+
+.checklist table {
+    /*font-size: 14px;*/
+    line-height: 1.5;
+}
+
+.checklist table td, .checklist table th {
+    border: 1px solid #ebedf0;
+    padding: 16px 24px;
+    text-align: left;
+}
+
+.checklist table th {
+    text-align: center;
+    white-space: nowrap;
+    color: #5c6b77;
+    font-weight: 700;
+    font-size: 16px;
+    background: rgba(0, 0, 0, .02);
+}
+
+.noData {
+  color: rgba(0,0,0,.25);
+  text-align: center;
+  line-height: 64px;
+  font-size: 16px;
+}
+
+.poptag p {margin-bottom: 0;}
+
+/*print*/
+.itembox table tr{line-height: 36px;}
+
+/*.spacing {width: 25%;padding-right: 25px;}*/
+
+/*.spacing1 {width: 10%;text-align: right;}*/
+
+.column {width: 16.6%;}
+
+.ctx {width: 15%;text-align: center;}
+
+table.worksheet {margin: 0 auto;}
+table.worksheet tr td:first-child {width: 25%;color: rgba(0, 0, 0, 0.85);padding-right:25px;}
+
+.record {
+    /*// box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);*/
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.16), 0 1px 7px 0 rgba(0,0,0,0.12);
+    /*// border-radius: 5px;*/
+}
+
+.items {
+    width: 60%;
+    display: inline-block;
+}
+
+.part4 .ant-checkbox-group {
+    line-height: 36px;
+}
+
+.topicindex {padding-left: 50px;}
+
+@media print {
+    @page {
+        size: A4 portrait;
+    }
+    body * {
+        visibility: hidden;
+    }
+    .printarea,.printarea * {
+        visibility: visible;
+    }
+    .printarea {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 11px;
+    }
+    .noprint {
+        display: none;
+    }
+    /* tr { page-break-inside: avoid; }
+    tr td{page-break-inside: avoid;} */
+    .wrap table tr{
+        page-break-inside:avoid;
+    }
+    
+    .wrap tr.tr_label {
+        page-break-inside:auto;
+    }
+    
+    .wrap table tr td{
+        page-break-inside:avoid;
+    }
+    
+    .wrap tr.tr_label td{
+        page-break-inside:auto;
+    }
+    
+    .wrap tr.tr_label td p{
+        page-break-inside:avoid;
+    }
+
+    .topicindex {padding-left: 0; display: none}
+
+    /* 打印字号偏大 */
+    .checkItem {font-size: 8px;font-weight: normal;}
+    .part3_checkbox p{font-size: 8px;}
+    .part4_checkbox{font-size: 8px}
+    em{font-size: 8px}
+}

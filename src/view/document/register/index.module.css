@@ -1,0 +1,112 @@
+.NoData {
+  padding-top: 50px;
+  text-align: center;
+}
+.NoData p {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+.firstLevelItem{
+  height: 40px;
+  /* line-height: 40px; */
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  text-overflow:ellipsis;
+	white-space:nowrap
+}
+
+.secondLevelItem{
+  height: 30px;
+  /* line-height: 40px; */
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  padding: 0 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  
+}
+
+.firstLevelItemLeft{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+	white-space:nowrap
+}
+
+.firstLevelItemRight{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.file_Breadcrumb{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.sub_record_item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.audit_record_item{
+  display: flex;
+  flex-direction: column;
+}
+
+.audit_record_item_created{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.audit_record_audit_detail{
+  width: 100%;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+}
+
+.table_operation{
+  position:absolute;
+  left: 0;
+  top:-10px;
+  height: 60px;
+  width: 100px;
+  border: 1px solid black;
+  z-index: 99;
+}
+
+.line_item{
+  display: flex;
+  align-items: center;
+}
+
+.shareUserOperate{
+  margin-left: 5px;
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.shareRecordUserList{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}

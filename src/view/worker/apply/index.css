@@ -1,0 +1,30 @@
+.submit_div{
+    float: left;
+    margin-top: -10px;
+}
+
+.submit_span{
+    float: left;
+    margin:5px 10px 0 0
+}
+
+.submit_select{
+    float: left;
+    margin:0 15px 10px 0;
+    width:30%
+}
+
+.submit_group{
+    min-height: 48px;
+}
+
+.submit_group:after{
+    content:'';
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.none_flow_submit{
+    min-height: 58px;
+}

@@ -1,0 +1,210 @@
+.componentsList{
+  padding: 8px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.componentsList  .widgetCate{
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.componentsList  ul{
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+.componentsList  .formEditWidgetLabel{
+    font-size: 12px;
+    display: block;
+    width: 48%;
+    line-height: 26px;
+    position: relative;
+    float: left;
+    left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 1%;
+    color: #333;
+    border: 1px solid #F4F6FC;
+}
+
+.componentsList  .formEditWidgetLabel:hover{
+      color: #409EFF;
+      border: 1px dashed #409EFF;
+    }
+
+.componentsList  .formEditWidgetLabel>a{
+      display: block;
+      cursor: move;
+      background: #F4F6FC;
+      border: 1px solid #F4F6FC;
+}
+
+.editStyle>.icon{
+    margin-right: 6px;
+    margin-left: 8px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.editStyle>span{
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+.noElementPic{
+      background: url('form_empty.png') no-repeat;
+	  background-position: 50%;
+	  min-height:500px;
+      position: relative;
+}
+
+.noElementWord{
+        position:absolute;
+        top:220px;
+        bottom:0;
+        right:0;
+        left:37%;
+}
+
+.widgetGrid{
+    /*background: #F4F6FC;*/
+    position: relative;
+    /*border-left: 5px solid transparent;*/
+    /*padding: 5px;*/
+    margin: 0 !important;
+    height:50px;
+    border:1px dashed transparent;
+}
+
+.widgetGrid:hover{
+    border: 1px dashed #999
+}
+
+.widgetGrid1{
+    position: relative;
+    border-left: 5px solid transparent;
+    margin: 0 !important;
+    height:50px
+}
+
+/*.widgetGrid:hover{*/
+    /*border: 1px dashed #999*/
+/*}*/
+
+
+.widgetGridItem{
+    height: 50px;
+    border: 1px dashed transparent;
+}
+
+.widgetGridItem:hover{
+    border: 1px dashed #999
+}
+
+.widgetGridItem1{
+    height: 50px;
+}
+
+.active{
+      border-left: 5px solid #409EFF;
+      background: #b3d8ff;
+      height: 60px;
+}
+
+.widget-form-list{
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.editTitle{
+    font-size: 13px;
+    padding: 16px 0 8px 0;
+    color:rgba(0,0,0,0.65)
+    /*margin-bottom: 24px;*/
+    /*text-align: center;*/
+}
+
+.formStyle label{
+    color:#333;
+    font-size: 12px;
+    border: 1px solid #F4F6FC;
+    font-variant: tabular-nums;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/*.formButtonStyle{*/
+    /*margin: 0 45%;*/
+/*}*/
+
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  background: #f7f7f7;
+  border-radius: 2px;
+  margin-bottom: 24px;
+  border: 0;
+  overflow: hidden;
+}
+
+.widgetGridWidth{
+    width:calc(100% - 40px);
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.widgetGridWidthPreview{
+    width:100%;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.PreviewCreateStyle{
+      padding: 10px;
+      border-radius: 5px;
+      min-height: 200px;
+      border:1px solid #d3d3d3;
+      /*box-shadow: -3px -1px 20px 2px #d3d3d3;*/
+}
+
+.PreviewEditStyle{
+      padding: 10px;
+      border-radius: 5px;
+      min-height: 200px;
+
+}
+
+.formWithBorder{
+    margin-bottom:60px;
+    padding:20px 0;
+    border:1px solid black
+}
+
+.formWithoutBorder{
+    margin-bottom: 60px;
+}
+
+/*.dragStyle{*/
+    /*.ant-form-item-no-colon .ant-form-item-label label:after{*/
+    /*}*/
+    .editor{
+        height:200px;
+    }
+    .editor-main{
+        height:100px
+    }
+    .ant-drawer-content-wrapper{
+        overflow:auto
+    }
+/*}*/
+
+/*.widgetGridItem:hover{*/
+    /*border:1px dashed #999*/
+/*}*/
+
+/*.widgetGrid:hover{*/
+    /*border:1px dashed #999*/
+/*}*/

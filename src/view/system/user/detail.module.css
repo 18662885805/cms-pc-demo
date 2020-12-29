@@ -1,0 +1,25 @@
+.line {
+    overflow: hidden;
+}
+.lineLeft {
+    position: relative;
+    float: left;
+    padding: 10px 30px 10px 20px;
+    border: 1px solid #eee;
+}
+.lineArrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    width: 0;
+    height: 0;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.lineRight {
+    float: left;
+    padding: 10px 20px;
+}

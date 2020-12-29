@@ -1,0 +1,12 @@
+.flowCollapse :global(.ant-collapse .ant-collapse-item .ant-collapse-header){
+  padding: 0 40px;
+}
+
+.flowCollapse :global(.ant-collapse .ant-collapse-item .ant-collapse-header .ant-collapse-arrow){
+  left:0
+}
+
+.flowTime :global(.ant-timeline-item-content){
+  min-height: unset;
+}
+

@@ -1,0 +1,665 @@
+/* 引入 icon class 文件 */
+@import  "assets/fonts/iconfont/iconfont.css";
+/* 关于这个引用路径，有一个坑，ant.design 我用的dva，默认资源路径为 /public 所以这个引用的实际目录是  /public/fonts/iconfont/iconfont.css */
+
+/* 设置使用字体的优先级 anticon-user 高 */
+:global(.anticon) {  /* :global() 是为了覆盖全局class .anticon 的样式 */
+  &:before {
+    font-family: "anticon", "anticon-user" !important;
+    /* 默认样式是这样
+        font-family: "anticon" !important;
+    */
+  }
+}
+
+#root .content-wrapper {
+    // width: 100%;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:16px;
+    z-index: 1;
+}
+
+#root .rdw-editor-main {
+    padding: 0 5px;
+    border: 1px solid #f1f1f1;
+}
+
+// :global(#root .ant-layout-sider-children .ant-menu-root) {
+//     height: calc(~'100vh - 64px');
+//     overflow-y: scroll;
+//     overflow-x: hidden;
+// }
+#root .ant-layout-footer {
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+:global(#root .ant-table-pagination.ant-pagination) {
+    margin-bottom: 0;
+}
+:global(#root .ant-table-body) {
+    position: relative;
+    max-height: calc(~'100vh - 280px');
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+:global(#root #special .ant-table-body) {
+    position: relative;
+    max-height: calc(~'100vh - 280px');
+    overflow: auto;
+    //background: #fff;
+}
+:global(#root .ant-table-body table) {
+    width: 100%;
+}
+:global(#root .ant-table-body thead) {
+    width: 100%;
+}
+:global(#root .ant-table-body tbody) {
+    width: 100%;
+}
+:global(#root .ant-table-body tr) {
+    width: 100%;
+}
+:global(#root .ant-table-body td) {
+    width: 100%;
+}
+:global(#temp .ant-table-body td) {
+    white-space: normal;
+}
+:global(#short-form .ant-form-item-label) {
+    line-height: 24px;
+}
+:global(#short-form .ant-form-item-control) {
+    line-height: normal;
+}
+:global(#project-type .ant-upload-list-item) {
+    height: auto;
+}
+:global(.project-type .ant-collapse-content > .ant-collapse-content-box) {
+    padding: 0;
+}
+
+#root .nav .ant-avatar {
+    float: left;
+    margin-bottom: 0;
+}
+#root .nav {
+    margin-left: 0;
+}
+#root .nav .ant-badge {
+    top: -2px;
+    color: #12517d;
+}
+#root .content-no-table-wrapper {
+    max-height: calc(~'100vh - 148px');
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#root .content-table-wrapper {
+    max-height: calc(~'100vh - 148px');
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#root .content-no-table-wrapper .color-picker span {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+#root .vertical-modal {
+    text-align: center;
+  }
+.btn-group {
+    overflow: hidden;
+}
+#root .vertical-modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+  }
+
+#root .vertical-modal .ant-modal {
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    text-align: left;
+  }
+#root #tr-fixed {
+    position: fixed;
+    top: 170px;
+    z-index: 1;
+}
+#root .nav li {
+    list-style: none;
+}
+#root .ant-steps-item-finish {
+    cursor: pointer;
+}
+#root .ant-steps-item-process {
+    cursor: pointer;
+}
+:global(#root .ant-card-body .formSelect:hover) {
+    background: rgb(230, 247, 255)
+  }
+
+:global(#root .ant-timeline-item-last .ant-timeline-item-content) {
+    min-height: auto;
+}
+
+:global(#onestop .ant-card) {
+    // box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.16), 0 1px 7px 0 rgba(0,0,0,0.12);
+    // border-radius: 5px;
+}
+
+:global(#onestop .ant-card-body) {
+    padding: 5px 10px;
+}
+:global(#card-service .ant-card-body) {
+    padding: 10px;
+    font-size: 12px;
+}
+:global(#card-service .ant-card-head) {
+    min-height: auto;
+    padding: 0 10px;
+}
+:global(#card-service .ant-card-head-title) {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+:global(#card-service .ant-card-body .ant-timeline-item) {
+    font-size: 12px;
+    padding:  0 0 0px;
+}
+:global(#card-service .ant-card-body .ant-timeline) {
+    margin-top: 5px;
+}
+
+:global(#record .ant-table-body) {
+    max-height: 220px;
+}
+
+//map
+:global(#map .fullscreen) {
+    width: 100%;
+    height: auto!important;
+}
+
+:global(.popover) {display: none;}
+
+:global(#map .fullscreen-enabled .popover) {
+    display: block;
+}
+:global(#project-add-checkbox .ant-form-item-control) {
+    line-height: 30px;
+}
+:global(#project-add-checkbox .ant-form-item-label) {
+    line-height: 30px;
+}
+
+:global(table .ant-form-item-label) {
+    text-align: left;
+    white-space: normal;
+}
+
+#root #workorder .ant-table-thead > tr > th {
+    padding-right: 10px;
+    position: relative;
+    text-overflow: ellipsis;
+}
+#root #workorder .ant-table-column-sorters span {
+    position: absolute;
+    left: 0;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.content-wrapper .ant-input-affix-wrapper {line-height: 40px;}
+
+.login_form .ant-input-affix-wrapper .ant-input:not(:first-child) {
+    padding-left: 10%;
+}
+
+i.anticon.anticon-construction {font-weight: bold;}
+
+#root .ag-theme-balham .ag-root {
+    border: 0;
+}
+#root .ag-theme-balham .ag-row-odd {
+    background: #fff;
+}
+#root .ag-theme-balham .ag-row {
+    border-bottom-color: rgb(232,232,323);
+}
+#root .ag-theme-balham .ag-ltr .ag-cell-focus {
+    border-color: transparent;
+}
+#root .ag-theme-balham .ag-row-selected {
+    background: transparent;
+}
+#root .ag-theme-balham .ag-row-hover {
+    background: #fff;
+}
+#root .ag-theme-balham .ag-header {
+    border-bottom-color: rgb(250,250,250);
+}
+#root .ag-theme-balham .ag-header-row {
+    border-bottom-color: rgb(250,250,250);
+}
+#root .ag-theme-balham .ag-header-cell {
+    border: 1px solid #fff;
+}
+#root .ag-theme-balham .ag-cell-label-container {
+    background: #fafafa;
+}
+.efmtable .ag-body-viewport.ag-layout-normal {
+    overflow-x: hidden;
+}
+.efmtable .ag-selection-checkbox {
+    float: left;
+}
+
+.construction .ant-checkbox-disabled.ant-checkbox-checked .ant-checkbox-inner:after {
+    border-color: rgba(0, 0, 0, 0.75);
+}
+
+.construction .ant-checkbox-disabled + span {
+    color: rgba(0, 0, 0, 0.65);
+}
+// :global(#home-cascader .ant-cascader-input.ant-input) {
+//     background-color: rgb(240, 242, 245) !important;
+//     border: 0;
+//     outline: none;
+// }
+// :global(#home-cascader .ant-calendar-picker-input) {
+//     background-color: rgb(240, 242, 245) !important;
+//     border: 0;
+// }
+// :global(#home-cascader .ant-select-selection--single) {
+//     background-color: rgb(240, 242, 245) !important;
+//     border: 0;
+// }
+//.ant-table table tr td a {
+//    color: #12517D;
+//    text-decoration: underline;
+//}
+//
+//.ant-table table tr td a:hover {
+//    color: #212121;
+//    text-decoration: none;
+//}
+
+// #marquee .MarqueeC-Div {
+//     width: 100% !important;
+// }
+// #marquee .Marquee-Mover {
+//     width: 100% !important;
+// }
+// :global(#root .ant-table-body thead) {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+// }
+.ant-btn.ant-btn-primary.christmas:before {
+    display: none!important;
+}
+.ReactVirtualized__List:focus{
+    outline: none;
+}
+.react-contextmenu {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    color: #373a3c;
+    font-size: 16px;
+    margin: 2px 0 0;
+    min-width: 160px;
+    outline: none;
+    opacity: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    text-align: left;
+    transition: opacity 250ms ease !important;
+}
+
+.react-contextmenu.react-contextmenu--visible {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 9999;
+}
+
+.react-contextmenu-item {
+    background: 0 0;
+    border: 0;
+    color: #373a3c;
+	cursor: pointer;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 3px 20px;
+    text-align: inherit;
+    white-space: nowrap;
+}
+
+.react-contextmenu-item.react-contextmenu-item--active,
+.react-contextmenu-item.react-contextmenu-item--selected {
+    color: #fff;
+    background-color: #20a0ff;
+    border-color: #20a0ff;
+    text-decoration: none;
+}
+
+.react-contextmenu-item.react-contextmenu-item--disabled,
+.react-contextmenu-item.react-contextmenu-item--disabled:hover {
+    background-color: transparent;
+    border-color: rgba(0,0,0,.15);
+    color: #878a8c;
+}
+
+.react-contextmenu-item--divider {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    cursor: inherit;
+    margin-bottom: 3px;
+    padding: 2px 0;
+}
+.react-contextmenu-item--divider:hover {
+    background-color: transparent;
+    border-color: rgba(0,0,0,.15);
+}
+
+.react-contextmenu-item.react-contextmenu-submenu {
+	padding: 0;
+}
+
+.react-contextmenu-item.react-contextmenu-submenu > .react-contextmenu-item {
+}
+
+.react-contextmenu-item.react-contextmenu-submenu > .react-contextmenu-item:after {
+    content: "▶";
+    display: inline-block;
+    position: absolute;
+    right: 7px;
+}
+
+.example-multiple-targets::after {
+    content: attr(data-count);
+    display: block;
+}
+
+.ant-card .ant-radio-disabled .ant-radio-inner:after {background-color: #999;}
+
+.tree-transfer .ant-transfer-list-content-item-disabled {background: #FFFFCC}
+
+//多语言
+.lang {
+    //padding: 10px 15px;
+    width: 100px;
+}
+
+.lang img, .current img {
+    width: 20px;
+    margin-left: 0;
+}
+
+.lang span.lang-txt, .current span.lang-txt {
+    position: relative;
+    top: -1px;
+    font-weight: normal;
+}
+
+.lang img, .lang span.lang-txt, .current span.lang-txt {
+    display: inline-block;
+    margin-left: 6px;
+    vertical-align: middle;
+    color: #444444;
+}
+
+.selfeqpt {position: fixed;right: 15px;bottom: 2%;z-index: 1;}
+
+.selfeqpt .ant-select-selection {border: none; background: none; box-shadow: none;}
+
+//.ant-layout-content {position: relative;}
+
+.global-spin {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+.schedule table tr td{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.schedule table tbody tr td:first-child{width:120px;}
+.schedule table tbody tr td:nth-child(2){width:100px;}
+.schedule table tbody tr td:nth-child(3){width:80px;}
+
+button#test-table-xls-button {
+    position: relative;
+    top: -30px;
+    left: 31%;
+}
+
+.cookie p {margin: 0; font-size: 12px;}
+
+.eqpt .ant-transfer-list-content {font-size: 12px;}
+
+.park .ant-col:first-child {text-align: right;white-space: nowrap;}
+
+//.ant-modal .code-box {padding: 15px 24px 15px;color: rgb(18, 81, 125);cursor: pointer;}
+
+.item-box {max-width: 66.6%;}
+
+.carinfo {display: flex; align-items: center; justify-content: center;border-radius: 6px;overflow: hidden; cursor: pointer;}
+
+.vancard {width: 90%;border-radius: 6px;margin: 0 auto 20px;
+  /*border: 1px solid #ebedf0;*/
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .3);
+  -moz-box-shadow:0 0 10px rgba(0, 0, 0, .3);
+  box-shadow:0 0 10px rgba(0, 0, 0, .3); }
+
+.carinfo .bj{ position: absolute;width: 100%;left: 0px;bottom: 0px;right: 0px;height: 40px;background: rgba(0,0,0,0.4);}
+
+.carinfo .ant-form-item, .carinfo .ant-form-item-label > label {color: #fff;}
+
+.ipt-wrap input:focus {outline: none;}
+
+.ipt-wrap input::-webkit-input-placeholder {color: rgba(0, 0, 0, 0.5);}
+.ipt-wrap input:-ms-input-placeholder {color: rgba(0, 0, 0, 0.5);}
+.ipt-wrap input::-moz-placeholder {color: rgba(0, 0, 0, 0.5);}
+
+.btn.btn-xs {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.check .btn-xs, .meeting .btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #333333;
+    background-color: #d6d6d6;
+}
+
+.check .ant-radio-wrapper .ant-radio {vertical-align: top}
+
+.ant-descriptions-bordered.ant-descriptions-small .ant-descriptions-item-label {width: 180px;}
+
+.sigCanvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    // z-index: 999;
+}
+
+.sigCanvas.active {z-index: 999;}
+
+.itembox {position: relative;}
+
+.operate {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 30px;
+}
+
+.operate .ant-btn .anticon, .operate .ant-btn {font-size: 8px;}
+
+#root .formitem .ant-form-item {margin-bottom: 0;height: 40px;}
+
+.dnditem {
+    display: inline-block;
+    width: 96px;
+    height: 30px;
+    line-height: 30px;
+    color: #707070;
+    font-size: 12px;
+    padding: 1px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 0 6px 6px 0;
+    cursor: pointer;
+    vertical-align: middle;
+    letter-spacing: 4px;
+    text-align: center;
+    cursor: move;
+}
+
+.linearbg {
+    position: absolute;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    bottom: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #00416A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+#share {
+    height: 533px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#qrid {
+    position: relative;
+    z-index: 99;
+    padding: 10px;
+    background: #fff;
+}
+
+#aId {
+    position: relative;   
+    height: 100%;
+    width: 300px;
+    display: inline-block;
+    padding: 105px 0;
+}
+
+#share_p {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 10px;
+}
+
+#share_p_2 {
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    border: 1px solid #999999;
+    border-radius: 10px;
+}
+
+#pId {
+    position: relative;   
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+
+.linearbg_p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom:0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.p_name{
+    display: flex;
+    flex-direction: column;
+}
+
+#view {display: none;}
+
+.meeting .sbtn {font-size: 12px;}
+
+.theme label {font-size: 14px!important;color: #096dd9;}
+
+.meeting .ant-input-disabled {background-color: #fff!important;}
+
+.meeting .ant-input[disabled], .meeting .ant-select-disabled, .meeting .ant-select-disabled .ant-select-selection--multiple .ant-select-selection__choice {color: rgba(0, 0, 0, 0.65);}
+
+.meeting .ant-select-selection--multiple .ant-select-selection__choice {background: #fff; border: none;}
+
+.meeting .ant-select-disabled .ant-select-selection {background: #fff;}
+
+.ant-form-item.topic, .ant-form-item.theme {margin-bottom: 0!important;}
+
+.meeting .ant-upload-picture-card-wrapper {display: flex; justify-content: flex-start;}
+
+.meeting .ant-anchor-link-title {font-weight: 700;}
+
+.meetingmodal .ant-tabs-content {min-height: 250px;}
+
+.ctxbox {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.cleft {
+    width: 66%;
+    flex-shrink: 0;
+    flex-flow: 1;
+}
+
+.cright {
+    width: 28%;
+    flex-shrink: 0;
+    flex-flow: 1;
+}

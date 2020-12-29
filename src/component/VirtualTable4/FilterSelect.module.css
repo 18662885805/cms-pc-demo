@@ -1,0 +1,26 @@
+.OneLine {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  overflow: hidden;
+}
+.Input {
+  display: block;
+  height: 30px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  padding: 0 5px;
+  font-size: 14px;
+}
+.CheckboxLine {
+  composes: OneLine;
+  height: 30px;        
+}
+.NoData {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #ccc;
+  font-size: 14px;
+}

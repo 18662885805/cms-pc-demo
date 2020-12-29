@@ -1,0 +1,36 @@
+.box {
+  position: relative;
+  width: 100%;
+}
+
+.editor {
+  border: 1px dashed transparent;
+  border-radius: 3px;
+}
+
+.editor:hover {
+  border: 1px dashed #1890ff;
+}
+
+.chosen {
+  border: 1px solid #1890ff;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+:global(.ant-form-item) {
+  margin-bottom: 8px;
+}
+
+
+.handler {
+  display: none;
+  position: absolute;
+  z-index: 100000;
+  top: 0;
+  right: 0;
+}

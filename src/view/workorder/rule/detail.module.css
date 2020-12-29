@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    width: 80%;
+    margin-left: 40px;
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 20px 10px 0;
+}
+.card::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #ccc;
+}
+.card::after {
+    content: "";
+    position: absolute;
+    left: -28px;
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: rgb(33, 110, 163);
+}
+.card .line {
+    padding: 5px 0;
+    line-height: 20px;
+    font-size: 12px;
+}

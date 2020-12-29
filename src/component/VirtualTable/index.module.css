@@ -1,0 +1,62 @@
+.efmHeader {
+
+}
+.efmHeader .RowStyle {
+  border-bottom: 1px solid #e8e8e8;
+  overflow: visible !important;
+}
+.efmHeader .headerItem {
+  position: relative;
+  /* padding-right: 18px; */
+}
+.efmHeader .headerFilter {
+  position: absolute;
+  width: 170px;
+  top: 36px;
+  right: 0;
+  z-index: 10;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  padding: 5px 8px;
+  display: none;
+}
+.efmHeader .headerItemContent {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.efmHeader .headerItemIcon {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  overflow: hidden;
+}
+.efmHeader .headerItemIconUp {
+  display: block;
+  /* position: absolute;
+  top: 0; */
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.8);
+  color: #bfbfbf;
+}
+.efmHeader .headerItemIconDown {
+  display: block;
+  /* position: absolute;
+  bottom: 0; */
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.8);
+  color: #bfbfbf;
+}
+.efmHeader .headerItemIconFilter {
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.8);
+  color: #bfbfbf;
+}

@@ -1,0 +1,114 @@
+.Table {
+  border: 0;
+}
+.Column {
+  border: 0;
+}
+.Row {
+  border: 0;
+  border-bottom: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.HeaderCell {
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  background: #fafafa;
+  border-right: 2px solid #fff;
+  font-weight: normal;
+}
+.Cell {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  background: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ArrowCell {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  background: #f9f9f9;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-left: 2px solid #bbb;
+  overflow: hidden;
+}
+.ArrowCell::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 30px;
+  background: #bbb;
+}
+.ArrowCell::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: 50%;
+  border: 2px solid #bbb;
+  width: 8px;
+  height: 8px;
+  border-left: 0;
+  border-bottom: 0;
+  transform: translateY(-50%) rotate(45deg);
+}
+.headerFilter {
+  position: absolute;
+  width: 170px;
+  top: 36px;
+  right: 0;
+  z-index: 9999;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  padding: 5px 8px;
+  display: none;
+}
+.headerItemContent {
+  color: #000;
+  font-weight: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.headerItemIcon {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.headerItemIconUp {
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.6);
+  color: #bfbfbf;
+}
+.headerItemIconDown {
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.6);
+  color: #bfbfbf;
+}
+.headerItemIconFilter {
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+  transform: scale(0.6);
+  color: #bfbfbf;
+}

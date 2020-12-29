@@ -1,0 +1,222 @@
+.mapCotainer{
+    height:100%;
+    position: relative;
+}
+
+.homeContainer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.TopInfoContainer{
+    width: 100%;
+    height:calc(100vh - 140px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fff;
+    box-sizing: border-box;
+}
+.BottomInfoContainer{
+    width: 100%;
+    height: 400px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+.ImgAndTableContainer{
+    height:100%;
+    width:calc(100vw - 700px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow:0px 4px 10px 0px #f0f8ff;
+    position: relative;
+}
+
+.CarouselContainer{
+    height: 100%;
+    width:calc(100vw - 700px);
+    margin: 0;
+    box-sizing: border-box;
+    /* position: absolute;
+    z-index: 99; */
+    box-shadow: 0px 4px 10px 0px #f0f8ff;
+}
+
+
+
+.ImageContainer{
+    height:calc(100vh - 300px);
+    width:calc(100vw - 700px);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #ffffff;
+}
+
+.descContainer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:calc(100vw - 700px);
+    height: 100px;
+    background:rgba(0,0,0,0.3);
+    color:#ffffff;
+    font-size:36px;
+    line-height: 60px;
+    padding: 0 20px;
+    
+    overflow: hidden;
+    text-overflow:ellipsis;			
+    white-space:nowrap
+}
+
+.homeImage{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    height: 100%;
+    transform: translate(50%,0);
+}
+
+.ImageBox{
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Weather */
+.WeatherContainer{
+    height:100%;
+    width: 400px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 4px 10px 0px #f0f8ff
+}
+
+.weatherInfo3{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    /* font-size: 18px; */
+    padding:0 10px;
+    overflow: hidden;
+}
+
+.weatherInfo4{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding:0 10px;
+    overflow: hidden;
+    /* font-size: 18px; */
+}
+
+.everyHourCotainer{
+    height: 120px;
+    border-top: 1px solid rgb(18, 81, 125);
+    background: 	#87cefa;
+}
+.everyDayCotainer{
+    height: 60px;
+    border-top: 1px solid rgb(18, 81, 125);
+    /* //overflow:hidden; */
+    position: relative;
+}
+.everyDay{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nextDay{
+    height: 60px;
+    padding:5px 10px;
+    display: flex;
+}
+
+.nextDay2{
+    height: 60px;
+    padding:5px 10px;
+    display: flex;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 20px; */
+
+}
+
+.nextDay3{
+    height: 60px;
+    padding:5px 10px;
+    display: flex;
+    line-height: 50px;
+    display: flex;
+}
+
+.nextDayItem1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nextDayItem2{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextDayItem3{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nextDayLeft{
+    height:60px;
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.nextDayCenter{
+    height:60px;
+    line-height: 60px;
+}
+
+.nextDayRight{
+    height:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nextDayImg{
+    height: 100%;
+}
+
+.everyDayImg{
+    height: 30px;
+}
+
+.table_header{
+    background: yellow;
+}

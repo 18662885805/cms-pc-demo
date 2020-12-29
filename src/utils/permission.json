@@ -1,0 +1,1374 @@
+{
+    "/parking/blacklist/enabled": [
+        "POST"
+    ],
+    "/parking/blacklist/disabled": [
+        "POST"
+    ],
+    "/parking/car/search/by/no": [
+        "POST"
+    ],
+    "/testcar/toll": [
+        "POST"
+    ],
+    "/inspection/area/excel": [
+        "POST"
+    ],
+    "/parking/area/change/current/no": [
+        "POST"
+    ],
+    "/inspection/myrecord": [
+        "GET"
+    ],
+    "/inspection/scheduling/disabled": [
+        "POST"
+    ],
+    "/inspection/scheduling/enabled": [
+        "POST"
+    ],
+    "/inspection/group": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/inspection/route": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/inspection/area": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/parking/notice": [
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/hotline/ordercategory/disabled": [
+        "POST"
+    ],
+    "/hotline/ordercategory/enabled": [
+        "POST"
+    ],
+    "/inspection/record": [
+        "GET"
+    ],
+    "/inspection/scheduling": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/hotline/orderhotline": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/hotline/orderhotline/excel": [
+        "POST"
+    ],
+    "/hotline/dashboard": [
+        "GET",
+        "POST"
+    ],
+    "/eqp/maintcard/excel": [
+        "POST"
+    ],
+    "/eqp/supplier/disabled": [
+        "POST"
+    ],
+    "/eqp/supplier/enabled": [
+        "POST"
+    ],
+    "/eqp/cardtype": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/supplier": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/maintcard": [
+        "GET"
+    ],
+    "/eqp/mymaintcard": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/parking/blacklist": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/hotline/orderall/excel": [
+        "POST"
+    ],
+    "/eqp/checklist/multi/delete": [
+        "DELETE"
+    ],
+    "/eqp/task/multi/delete": [
+        "DELETE"
+    ],
+    "/eqp/task/modify": [
+        "PUT"
+    ],
+    "/parking/area/disabled": [
+        "POST"
+    ],
+    "/parking/area/enabled": [
+        "POST"
+    ],
+    "/parking/records/staff/excel": [
+        "POST"
+    ],
+    "/parking/records/visitor/excel": [
+        "POST"
+    ],
+    "/parking/myvisitor/excel": [
+        "POST"
+    ],
+    "/parking/auth/disabled": [
+        "POST"
+    ],
+    "/parking/auth/enabled": [
+        "POST"
+    ],
+    "/parking/auth/excel": [
+        "POST"
+    ],
+    "/parking/records/visitor": [
+        "GET"
+    ],
+    "/parking/records/staff": [
+        "GET"
+    ],
+    "/parking/register": [
+        "GET"
+    ],
+    "/parking/myvisitor": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/parking/auth": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/parking/search": [
+        "GET"
+    ],
+    "/parking/area": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/training/manage/disabled": [
+        "POST"
+    ],
+    "/training/manage/excel": [
+        "POST"
+    ],
+    "/training/manage": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/rule/set/is/open": [
+        "POST"
+    ],
+    "/eqp/task": [
+        "DELETE",
+        "GET"
+    ],
+    "/in_training/allrecord": [
+        "GET"
+    ],
+    "/in_training/training/disabled": [
+        "POST"
+    ],
+    "/event/vip/leave": [
+        "POST"
+    ],
+    "/event/vip/enter": [
+        "POST"
+    ],
+    "/event/viprecordaudit/apply": [
+        "POST"
+    ],
+    "/testcar/car": [
+        "POST",
+        "PUT",
+        "GET"
+    ],
+    "/event/viprecord/excel": [
+        "POST"
+    ],
+    "/event/viprecordinfo": [
+        "GET"
+    ],
+    "/event/vipinfo": [
+        "GET"
+    ],
+    "/event/viprecordaudit": [
+        "GET"
+    ],
+    "/event/viprecord": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/carrecord/apply": [
+        "POST"
+    ],
+    "/testcar/zombie/excel": [
+        "POST"
+    ],
+    "/testcar/historyrecord/excel": [
+        "POST"
+    ],
+    "/testcar/violation/excel": [
+        "POST"
+    ],
+    "/testcar/violation": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/carrecord": [
+        "POST",
+        "DELETE",
+        "PUT",
+        "GET"
+    ],
+    "/testcar/carrecordinfo/excel": [
+        "POST"
+    ],
+    "/testcar/carrecordaudit/excel": [
+        "POST"
+    ],
+    "/testcar/carrecord/excel": [
+        "POST"
+    ],
+    "/testcar/drivercar/excel": [
+        "POST"
+    ],
+    "/testcar/tpmcar/excel": [
+        "POST"
+    ],
+    "/testcar/drivercar": [
+        "GET"
+    ],
+    "/testcar/car/excel": [
+        "POST"
+    ],
+    "/testcar/car/ubtied": [
+        "POST"
+    ],
+    "/testcar/car/binding": [
+        "POST"
+    ],
+    "/testcar/carbinding/excel": [
+        "POST"
+    ],
+    "/testcar/carbinding": [
+        "PUT",
+        "GET"
+    ],
+    "/testcar/carinfo/excel": [
+        "POST"
+    ],
+    "/testcar/carinfo": [
+        "GET"
+    ],
+    "/testcar/driver/disabled": [
+        "POST"
+    ],
+    "/testcar/driver/enabled": [
+        "POST"
+    ],
+    "/eqp/break": [
+        "POST"
+    ],
+    "/testcar/driver/excel": [
+        "POST"
+    ],
+    "/testcar/driver": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/settings": [
+        "GET",
+        "PUT"
+    ],
+    "/testcar/rfid/excel": [
+        "POST"
+    ],
+    "/testcar/rfid": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/in_training/answer": [
+        "POST"
+    ],
+    "/testcar/area": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/area/excel": [
+        "POST"
+    ],
+    "/in_training/train": [
+        "PUT",
+        "POST",
+        "DELETE",
+        "GET"
+    ],
+    "/in_training/materials/enabled": [
+        "POST"
+    ],
+    "/in_training/materials/disabled": [
+        "POST"
+    ],
+    "/in_training/materials/excel": [
+        "POST"
+    ],
+    "/in_training/materials": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/in_training/papers/excel": [
+        "POST"
+    ],
+    "/in_training/papers": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/in_training/certificate": [
+        "GET"
+    ],
+    "/in_training/my_training": [
+        "GET"
+    ],
+    "/in_training/myrecord": [
+        "GET"
+    ],
+    "/testcar/outtype/excel": [
+        "POST"
+    ],
+    "/testcar/aerial": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/outtype": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/testcar/aerial/excel": [
+        "POST"
+    ],
+    "/testcar/historyrecord": [
+        "GET"
+    ],
+    "/testcar/carrecordinfo": [
+        "GET"
+    ],
+    "/warehouse/allreceiving/excel": [
+        "POST"
+    ],
+    "/warehouse/receiving/excel": [
+        "POST"
+    ],
+    "/warehouse/receiving": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/warehouse/allrecord/excel": [
+        "POST"
+    ],
+    "/warehouse/recordinfo/excel": [
+        "POST"
+    ],
+    "/warehouse/record/apply": [
+        "POST"
+    ],
+    "/warehouse/recordaudit/excel": [
+        "POST"
+    ],
+    "/eqp/task/add": [
+        "POST"
+    ],
+    "/warehouse/record/excel": [
+        "POST"
+    ],
+    "/warehouse/record": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/warehouse/operation/count": [
+        "POST"
+    ],
+    "/warehouse/inventory/excel": [
+        "POST"
+    ],
+    "/warehouse/inventory": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/warehouse/area/excel": [
+        "POST"
+    ],
+    "/warehouse/area": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/warehouse/type/excel": [
+        "POST"
+    ],
+    "/warehouse/type": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/warehouse/allreceiving": [
+        "GET"
+    ],
+    "/warehouse/allrecord": [
+        "GET"
+    ],
+    "/warehouse/recordinfo": [
+        "GET"
+    ],
+    "/warehouse/recordaudit": [
+        "GET"
+    ],
+    "/eqp/dashboard": [
+        "GET"
+    ],
+    "/testcar/carrecordaudit": [
+        "GET"
+    ],
+    "/testcar/zombie": [
+        "GET"
+    ],
+    "/testcar/tpmcar": [
+        "GET"
+    ],
+    "/event/staffauth/excel": [
+        "POST"
+    ],
+    "/event/staffapply/excel": [
+        "POST"
+    ],
+    "/event/staffauth/disabled": [
+        "POST"
+    ],
+    "/event/staffauth/enabled": [
+        "POST"
+    ],
+    "/event/staffauth": [
+        "GET"
+    ],
+    "/event/staffapply/audit": [
+        "POST"
+    ],
+    "/event/staffapply": [
+        "GET"
+    ],
+    "/eqp/task/excel": [
+        "POST"
+    ],
+    "/eqp/package/excel": [
+        "POST"
+    ],
+    "/eqp/rule/excel": [
+        "POST"
+    ],
+    "/eqp/syseqp/excel": [
+        "POST"
+    ],
+    "/eqp/key/excel": [
+        "POST"
+    ],
+    "/eqp/mychecklist": [
+        "GET"
+    ],
+    "/epost/mypost": [
+        "GET"
+    ],
+    "/epost/all_post": [
+        "GET"
+    ],
+    "/epost/stamp_operation": [
+        "GET"
+    ],
+    "/post/stamp_record": [
+        "GET"
+    ],
+    "/epost/mailroom": [
+        "GET"
+    ],
+    "/epost/contact": [
+        "GET"
+    ],
+    "/epost/setting": [
+        "GET"
+    ],
+    "/epost/address": [
+        "GET"
+    ],
+    "/eqp/checklist": [
+        "GET"
+    ],
+    "/eqp/mtype": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/mytask": [
+        "GET"
+    ],
+    "/eqp/package": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/rule": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/eqp/syseqp/multi/delete": [
+        "DELETE"
+    ],
+    "/eqp/syseqp/multi/modify": [
+        "PUT"
+    ],
+    "/eqp/syseqp": [
+        "POST",
+        "GET"
+    ],
+    "/eqp/key": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/hotline/order": [
+        "POST",
+        "GET"
+    ],
+    "/system/allapplyroleinfo/excel": [
+        "POST"
+    ],
+    "/system/allapplyroleinfo": [
+        "GET"
+    ],
+    "/system/allregister": [
+        "GET"
+    ],
+    "/document/mydocument": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/document/myauditrecord/excel": [
+        "POST"
+    ],
+    "/document/myauditrecord": [
+        "GET"
+    ],
+    "/document/apply": [
+        "POST"
+    ],
+    "/document/myaudit/excel": [
+        "POST"
+    ],
+    "/document/myaudit": [
+        "GET"
+    ],
+    "/document/alldocument/excel": [
+        "POST"
+    ],
+    "/document/alldocument": [
+        "GET"
+    ],
+    "/document/mydocument/excel": [
+        "POST"
+    ],
+    "/document/templates/excel": [
+        "POST"
+    ],
+    "/document/templates": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/training/material/disabled": [
+        "POST"
+    ],
+    "/training/material/enabled": [
+        "POST"
+    ],
+    "/onestop/card/change/status": [
+        "POST"
+    ],
+    "/carryout/dashboard": [
+        "POST"
+    ],
+    "/construction/dashboard": [
+        "POST"
+    ],
+    "/event/dashboard": [
+        "POST"
+    ],
+    "/system/applyroleinfo/excel": [
+        "POST"
+    ],
+    "/system/applyroleinfo": [
+        "GET"
+    ],
+    "/system/applyroleaudit/excel": [
+        "POST"
+    ],
+    "/system/applyroleaudit/apply": [
+        "POST"
+    ],
+    "/system/applyroleaudit": [
+        "GET"
+    ],
+    "/system/applyrole": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/register/info/contractor": [
+        "POST"
+    ],
+    "/project/myauditrecord/excel": [
+        "POST"
+    ],
+    "/project/myaudit/excel": [
+        "POST"
+    ],
+    "/project/alltask/excel": [
+        "POST"
+    ],
+    "/project/mytask/excel": [
+        "POST"
+    ],
+    "/project/alldoc/excel": [
+        "POST"
+    ],
+    "/project/mydoc/excel": [
+        "POST"
+    ],
+    "/project/allproject/excel": [
+        "POST"
+    ],
+    "/system/user/status/changed": [
+        "POST"
+    ],
+    "/onestop/card/send": [
+        "POST"
+    ],
+    "/onestop/card/status": [
+        "POST"
+    ],
+    "/project/stage/apply": [
+        "POST"
+    ],
+    "/project/mytask": [
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/project/myaudit": [
+        "GET"
+    ],
+    "/project/myauditrecord": [
+        "GET"
+    ],
+    "/hotline/ordercategory": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/event/appointment/staff": [
+        "POST"
+    ],
+    "/event/appointment/cargo": [
+        "POST"
+    ],
+    "/event/appointment/fit": [
+        "POST"
+    ],
+    "/project/myproject/excel": [
+        "POST"
+    ],
+    "/project/myproject": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/project/type/excel": [
+        "POST"
+    ],
+    "/project/type": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/project/stage/excel": [
+        "POST"
+    ],
+    "/project/stage": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/onestop/settings/edit": [
+        "POST"
+    ],
+    "/onestop/settings": [
+        "GET"
+    ],
+    "/hotline/orderall": [
+        "GET"
+    ],
+    "/carryout/allrecord/excel": [
+        "POST"
+    ],
+    "/carryout/allrecord": [
+        "GET"
+    ],
+    "/keys/annualtrial/excel": [
+        "POST"
+    ],
+    "/keys/annualtrial": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/onestop/cardoperation/updated": [
+        "POST"
+    ],
+    "/keys/list/excel": [
+        "POST"
+    ],
+    "/keys/record/excel": [
+        "POST"
+    ],
+    "/keys/audit/excel": [
+        "POST"
+    ],
+    "/keys/operation/excel": [
+        "POST"
+    ],
+    "/keys/info/excel": [
+        "POST"
+    ],
+    "/onestop/annualtrial/excel": [
+        "POST"
+    ],
+    "/onestop/card/excel": [
+        "POST"
+    ],
+    "/onestop/service/excel": [
+        "POST"
+    ],
+    "/onestop/cardrecord/excel": [
+        "POST"
+    ],
+    "/onestop/cardaudit/excel": [
+        "POST"
+    ],
+    "/onestop/cardoperation/excel": [
+        "POST"
+    ],
+    "/onestop/chip/excel": [
+        "POST"
+    ],
+    "/training/safety/excel": [
+        "POST"
+    ],
+    "/training/record/excel": [
+        "POST"
+    ],
+    "/ticket/allrecord/excel": [
+        "POST"
+    ],
+    "/hotline/ordercategory/excel": [
+        "POST"
+    ],
+    "/hotline/order/excel": [
+        "POST"
+    ],
+    "/hotline/ordertodo/excel": [
+        "POST"
+    ],
+    "/construction/staffrecordinfo/excel": [
+        "POST"
+    ],
+    "/event/goodsrecord/excel": [
+        "POST"
+    ],
+    "/event/accessrecord/excel": [
+        "POST"
+    ],
+    "/event/bookvisitor/excel": [
+        "POST"
+    ],
+    "/system/tags/excel": [
+        "POST"
+    ],
+    "/system/message/excel": [
+        "POST"
+    ],
+    "/system/visitorauth/excel": [
+        "POST",
+        "POST"
+    ],
+    "/system/costcenter/excel": [
+        "POST"
+    ],
+    "/system/factory/excel": [
+        "POST"
+    ],
+    "/onestop/annualtrial": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/construction/viewproject/detail": [
+        "POST"
+    ],
+    "/onestop/annualtrial/enabled": [
+        "POST"
+    ],
+    "/construction/projectrecord/detail": [
+        "POST"
+    ],
+    "/construction/viewlistener/detail": [
+        "POST"
+    ],
+    "/construction/staffrecordinfo": [
+        "GET"
+    ],
+    "/onestop/cardinfo/edit": [
+        "POST"
+    ],
+    "/onestop/cardinfo": [
+        "POST"
+    ],
+    "/keys/info/disabled": [
+        "POST"
+    ],
+    "/keys/info/enabled": [
+        "POST"
+    ],
+    "/onestop/service/leave": [
+        "POST"
+    ],
+    "/onestop/card/return": [
+        "POST"
+    ],
+    "/ticket/allrecord": [
+        "GET"
+    ],
+    "/event/blanklist/disabled": [
+        "POST"
+    ],
+    "/event/blanklist/enabled": [
+        "POST"
+    ],
+    "/onestop/chip": [
+        "DELETE",
+        "POST",
+        "GET"
+    ],
+    "/system/costcenter": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/visitorauth/enabled": [
+        "POST"
+    ],
+    "/system/visitorauth/disabled": [
+        "POST"
+    ],
+    "/system/visitorauth": [
+        "GET"
+    ],
+    "/system/visitoraudit/apply": [
+        "POST"
+    ],
+    "/system/visitoraudit": [
+        "GET"
+    ],
+    "/keys/list": [
+        "POST",
+        "GET"
+    ],
+    "/keys/audit/apply": [
+        "POST"
+    ],
+    "/keys/operation": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/keys/info": [
+        "DELETE",
+        "POST",
+        "POST",
+        "GET"
+    ],
+    "/onestop/cardaudit/apply": [
+        "POST"
+    ],
+    "/onestop/cardoperation": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/keys/record": [
+        "GET"
+    ],
+    "/keys/audit": [
+        "GET"
+    ],
+    "/system/factory": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/onestop/service": [
+        "GET"
+    ],
+    "/onestop/cardrecord": [
+        "GET"
+    ],
+    "/onestop/cardaudit": [
+        "GET"
+    ],
+    "/project/alltask": [
+        "GET"
+    ],
+    "/project/alldoc": [
+        "GET"
+    ],
+    "/project/mydoc": [
+        "GET"
+    ],
+    "/project/allproject": [
+        "GET"
+    ],
+    "/hotline/ordertodo": [
+        "GET"
+    ],
+    "/onestop/card": [
+        "GET"
+    ],
+    "/system/tags": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/message/disabled": [
+        "POST"
+    ],
+    "/system/message/enabled": [
+        "POST"
+    ],
+    "/system/message": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/training/safety": [
+        "GET"
+    ],
+    "/training/record": [
+        "GET"
+    ],
+    "/training/paper/excel": [
+        "POST"
+    ],
+    "/training/paper": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/training/material/excel": [
+        "POST"
+    ],
+    "/training/material": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/construction/viewlistener/excel": [
+        "POST"
+    ],
+    "/construction/viewlistener": [
+        "GET"
+    ],
+    "/construction/viewproject/excel": [
+        "POST"
+    ],
+    "/construction/viewproject": [
+        "GET"
+    ],
+    "/construction/project": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/construction/projectrecord/excel": [
+        "POST"
+    ],
+    "/construction/projectrecord": [
+        "GET"
+    ],
+    "/construction/projectaudit/excel": [
+        "POST"
+    ],
+    "/construction/projectaudit/apply": [
+        "POST"
+    ],
+    "/construction/projectaudit": [
+        "GET"
+    ],
+    "/construction/project/excel": [
+        "POST"
+    ],
+    "/construction/contractor/disabled": [
+        "POST"
+    ],
+    "/construction/contractor/enabled": [
+        "POST"
+    ],
+    "/construction/staffrecord/excel": [
+        "POST"
+    ],
+    "/construction/staffrecord/audit": [
+        "POST"
+    ],
+    "/construction/staffrecord": [
+        "GET"
+    ],
+    "/construction/staff/excel": [
+        "POST"
+    ],
+    "/construction/staff": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/construction/worker/excel": [
+        "POST"
+    ],
+    "/construction/worker": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/event/goodsrecord": [
+        "GET"
+    ],
+    "/carryout/goodsrecordinfo/excel": [
+        "POST"
+    ],
+    "/carryout/goodsrecordinfo": [
+        "GET"
+    ],
+    "/carryout/goodsrecordaudit/excel": [
+        "POST"
+    ],
+    "/carryout/goodsrecord/excel": [
+        "POST"
+    ],
+    "/carryout/goodsrecordaudit/apply": [
+        "POST"
+    ],
+    "/carryout/goodsrecordaudit": [
+        "GET"
+    ],
+    "/carryout/goodsrecord": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/ticket/myrecord/excel": [
+        "POST"
+    ],
+    "/ticket/record/excel": [
+        "POST"
+    ],
+    "/ticket/rules/excel": [
+        "POST"
+    ],
+    "/construction/contractor/excel": [
+        "POST"
+    ],
+    "/event/selfappointment/excel": [
+        "POST"
+    ],
+    "/event/myvisitor/excel": [
+        "POST"
+    ],
+    "/event/appointment/excel": [
+        "POST"
+    ],
+    "/event/viewcargo/excel": [
+        "POST"
+    ],
+    "/event/viewvisitor/excel": [
+        "POST"
+    ],
+    "/event/cargo/excel": [
+        "POST"
+    ],
+    "/event/fit/excel": [
+        "POST"
+    ],
+    "/event/blanklist/excel": [
+        "POST"
+    ],
+    "/event/temporarycard/excel": [
+        "POST"
+    ],
+    "/system/role/excel": [
+        "POST"
+    ],
+    "/system/applyrole/excel": [
+        "POST"
+    ],
+    "/system/vehiclepermit/excel": [
+        "POST"
+    ],
+    "/system/goodstype/excel": [
+        "POST"
+    ],
+    "/system/reason/excel": [
+        "POST"
+    ],
+    "/system/channel/excel": [
+        "POST"
+    ],
+    "/system/register/excel": [
+        "POST"
+    ],
+    "/system/department/excel": [
+        "POST"
+    ],
+    "/system/user/excel": [
+        "POST"
+    ],
+    "/log/info": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/ticket/myrecord": [
+        "GET"
+    ],
+    "/ticket/record": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/ticket/rules": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/construction/contractor": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/event/selfappointment/audit": [
+        "POST"
+    ],
+    "/event/selfappointment": [
+        "GET"
+    ],
+    "/event/myvisitor": [
+        "GET",
+        "PUT"
+    ],
+    "/event/viewcargo": [
+        "GET"
+    ],
+    "/event/viewvisitor": [
+        "GET"
+    ],
+    "/event/appointment": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/event/accessrecord": [
+        "PUT",
+        "GET"
+    ],
+    "/event/accessrecord/out": [
+        "POST"
+    ],
+    "/event/bookvisitor": [
+        "PUT",
+        "GET"
+    ],
+    "/event/cargo": [
+        "POST",
+        "GET"
+    ],
+    "/event/fit": [
+        "POST",
+        "GET"
+    ],
+    "/event/blanklist": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/event/temporarycard": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/settings": [
+        "GET",
+        "POST"
+    ],
+    "/system/vehiclepermit": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/goodstype": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/reason": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/channel": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/register/info/user": [
+        "POST"
+    ],
+    "/system/register": [
+        "GET"
+    ],
+    "/system/user/disabled": [
+        "POST"
+    ],
+    "/system/user/enabled": [
+        "POST"
+    ],
+    "/system/department": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/staff/role": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ],
+    "/system/user": [
+        "DELETE",
+        "PUT",
+        "POST",
+        "GET"
+    ]
+}

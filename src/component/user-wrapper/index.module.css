@@ -1,0 +1,96 @@
+.wrapper {
+    padding-top: 10px;
+    overflow: hidden;
+}
+.box {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    padding-right: 20px;
+}
+.boxNoArrow {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    padding-right: 20px;
+}
+.boxAdd {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+.box:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 1px;
+    background: #aaa;
+}
+.box:not(:last-child):after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #aaa;
+    border-left: 0;
+    border-bottom: 0;
+    transform: translateY(-50%) rotate(45deg);
+}
+.avatar {
+    position: relative;
+    padding: 0 10px;
+    /* width: 60px; */
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    background: #1890ff;
+    color:#fff;
+}
+.avatarAdd {
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    /* background: #eee; */
+    border: 1px dashed #d9d9d9;
+    line-height: 25px;
+    font-size: 25px;
+    color: #aaa;
+    cursor: pointer;
+}
+.removeButton {
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    line-height: 17px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.username {
+    padding: 0 10px;
+    /* width: 45px; */
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

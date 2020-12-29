@@ -1,0 +1,19 @@
+.table {
+    /*height: calc(100vh - 100px);*/
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.table thead tr {background: #7CB5EC;height: 25px;}
+
+/*.table tr:first-child {*/
+  /*background: #7CB5EC;*/
+/*}*/
+
+.table tr td {
+    border: 1px solid #e8e8e8;
+    min-width: 25px;
+    text-align: center;
+}
+
+.table a {text-decoration: none; font-size: 12px;}
